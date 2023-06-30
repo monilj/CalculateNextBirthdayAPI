@@ -20,6 +20,7 @@ Steps to run this code
 9.	Right click and open cucumber-report.html to examine the execution report
 
 Future Scope
-1.	Current code is not run time code as expcted vaues will get change tomorrow and tests will going to be fail
-2.	Need to write Java util methods which compare current time and current date and validate the response
-3.	CI/CD integration: Need to integrate this repo with Jenkins and schedule nightliy job.s
+1.	Current code is not run time code which will calculate time remaining. So tests written for hour and day might fail if user execute this framework tomorrow.
+2.	Need to write Java util methods which compares current time and current date at run time.
+3.	Parameterized data in feature file mentioned in #2 and use it to validate the response
+4.	CI/CD integration: Need to integrate this repo with Jenkins and schedule nightliy job.s
